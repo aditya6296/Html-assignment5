@@ -1,0 +1,50 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.container {
+  /* width: 100%; */
+  background-color: rgb(8, 8, 112);
+  display: flex;
+
+}
+
+.nav-link {
+  margin: 16px;
+  padding: 8px 16px;
+  width: 35px;
+  border-radius: 1px 12px;
+  text-decoration: none;
+  border: 2px solid white;
+  color: rgb(25, 2, 2);
+  background-color: white;
+
+}
+
+.child:hover {
+  border-radius: 12px 2px;
+  transition: 600ms;
+  border: 2px solid blue;
+}
+.search {
+  width: 450px;
+  border-radius: 13px;
+  border: none;
+}
+
+.circle {
+  width: 40px;
+  margin: 15px;
+  border-radius: 32px;
+  background-color: green;
+}
+
+.circle:hover {
+  width: 34px;
+  border: 4px dotted orange;
+  transition: 600ms
+}
